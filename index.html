@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery App</title>
+    <link rel="stylesheet" type="text/CSS" href="CSS/style.css" />
+    <link rel="shortcut icon" href="images/fav-icon.png" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navigation">
+        <a href="index.html" class="logo">
+            <span>e</span>Grocery
+        </a>
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+        <ul class="menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#category">Categories</a></li>
+            <li><a href="#popular-bundle-pack">Our Packages</a></li>
+            <li><a href="#download-app">Our App</a></li>
+        </ul>
+        <div class="right-nav">
+            <a href="#" class="like">
+                <i class="far fa-heart"></i>
+                <span>0</span>
+            </a>
+            <a href="#" class="cart">
+                <i class="fas fa-shopping-cart"></i>
+                <span>0</span>
+            </a>
+        </div>
+    </nav>
+    <section id="search-banner">
+        <img src="images/bg-1.png" class="bg-1" alt="bg" />
+        <img src="images/bg-2.png" class="bg-2" alt="bg" />
+        <div class="search-banner-text">
+            <h1>Order your daily Groceries</h1>
+            <strong>#Free Delivery</strong>
+            <form action="" class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" class="search-input" placeholder="Search your daily groceries" name="search" required />
+                <input type="submit" class="search-btn" value="Search" />
+            </form>
+        </div>
+    </section>
+    <section id="category">
+        <div class="category-heading">
+            <h1>Category</h1>
+            <span>All</span>
+        </div>
+        <div class="category-container">
+            <a href="#" class="category-box">
+                <img src="images/fish.png" alt="Fish">
+                <span>Fish & Meat</span>
+            </a>
+            <a href="#" class="category-box">
+                <img src="images/Vegetables.png" alt="Vegetables">
+                <span>Vegetables</span>
+            </a>
+            <a href="#" class="category-box">
+                <img src="images/medicine.png" alt="Medicine">
+                <span>Medicine</span>
+            </a>
+            <a href="#" class="category-box">
+                <img src="images/baby.png" alt="Baby">
+                <span>Baby</span>
+            </a>
+            <a href="#" class="category-box">
+                <img src="images/office.png" alt="Office">
+                <span>Office</span>
+            </a>
+            <a href="#" class="category-box">
+                <img src="images/beauty.png" alt="Beauty">
+                <span>Beauty</span>
+            </a>
+            <a href="#" class="category-box">
+                <img src="images/Gardening.png" alt="Gardening">
+                <span>Gardening</span>
+            </a>
+        </div>
+    </section>
+    <section id="popular-product">
+        <div class="prouduct-heading">
+            <h3>Popular Product</h3>
+            <span>All</span>
+        </div>
+        <div class="product-container">
+            <div class="product-box">
+                <img src="images/apple.png" alt="Apple">
+                <strong>Apple</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">2 $</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add TO Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i> 
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="images/chili.png" alt="Chili">
+                <strong>Chili</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">3 $</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add TO Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i> 
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="images/onion.png" alt="onion">
+                <strong>Onion</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">1 $</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add TO Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i> 
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="images/patato.png" alt="patato">
+                <strong>Patato</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">2.2 $</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add TO Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="images/garlic.png" alt="garlic">
+                <strong>Garlic</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">3 $</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add TO Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i> 
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="images/tamato.png" alt="tamato">
+                <strong>Tamato</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">1.4 $</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add TO Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="popular-bundle-pack">
+        <div class="product-heading">
+            <h3>Popular Bundle Pack</h3>
+        </div>
+        <div class="product-container">
+            <div class="product-box">
+                <img src="images/pack1.png" alt="pack">
+                <strong>Big Pack</strong>
+                <span class="quantity">Lemone, Tamato, Patato, +4</span>
+                <span class="price">9 $</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add TO Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i> 
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="images/pack2.jpg" alt="pack2">
+                <strong>Large Pack</strong>
+                <span class="quantity">Lemone, Tamato, Patato, +2</span>
+                <span class="price">5 $</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add TO Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i> 
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="images/pack3.png" alt="pack3">
+                <strong>Small Pack</strong>
+                <span class="quantity">Lemone, Tamato, Patato</span>
+                <span class="price">3 $</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add TO Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i> 
+                </a>
+            </div>
+            
+        </div>
+    </section>
+    <section id="clients">
+        <div class="client-heading">
+            <h3>What Our Client’s Say</h3>
+        </div>
+        <div class="client-box-container">
+            <div class="client-box">
+                <div class="client-profile">
+                    <img src="images/client-1.jpg" alt="client">
+                    <div class="profile-text">
+                        <strong>James Mcavoy</strong>
+                        <span>CEO</span>
+                    </div>
+                </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur elit. Fugiat ea id, itaque architecto atque mollitia aperiam voluptatem consequatur incidunt sed placeat, harum recusandae quaerat at hic labore eius laborum quas!</p>
+            </div>
+            <div class="client-box">
+                <div class="client-profile">
+                    <img src="images/client-2.jpg" alt="client">
+                    <div class="profile-text">
+                        <strong>Adward Mcavoy</strong>
+                        <span>Software Developer</span>
+                    </div>
+                </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur elit. Fugiat ea id, itaque architecto atque mollitia aperiam voluptatem consequatur incidunt sed placeat, harum recusandae quaerat at hic labore eius laborum quas!</p>
+            </div>
+            <div class="client-box">
+                <div class="client-profile">
+                    <img src="images/client-3.jpg" alt="client">
+                    <div class="profile-text">
+                        <strong>Ava Alex</strong>
+                        <span>Marketer</span>
+                    </div>
+                </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur elit. Fugiat ea id, itaque architecto atque mollitia aperiam voluptatem consequatur incidunt sed placeat, harum recusandae quaerat at hic labore eius laborum quas!</p>
+            </div>
+        </div>
+    </section>
+    <section id="partner">
+        <div class="partner-heading">
+            <h3>Our Trusted Partner</h3>
+        </div>
+        <div class="logo-container">
+            <img src="images/logo-1.png" alt="logo">
+            <img src="images/logo-2.png" alt="logo">
+            <img src="images/logo-3.png" alt="logo">
+            <img src="images/logo-4.png" alt="logo">
+        </div>
+    </section>
+    <section id="download-app">
+        <div class="app-img">
+            <img src="images/mobile-app.png" alt="app">
+        </div>
+        <div class="download-app-text">
+            <strong>Download App</strong>
+            <p>Lorem ipsum dolor, sit amet consectetur elit. Fugiat ea id, itaque architecto atque mollitia aperiam voluptatem consequatur incidunt sed placeat, harum recusandae quaerat at hic labore eius laborum quas!</p>
+            <div class="download-btns">
+                <a href="#"><img src="images/appstore-btn.png" alt="appstore-btn"></a>
+                <a href="#"><img src="images/googleplay-btn.png" alt="googleplay-btn"></a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <a href="#"><span>e</span>Gorcery</a>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <strong>Product</strong>
+                <ul>
+                    <li><a href="#">Clothes</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#">Popular</a></li>
+                    <li><a href="#">New</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <strong>Category</strong>
+                <ul>
+                    <li><a href="#">Beauty</a></li>
+                    <li><a href="#">Meatss</a></li>
+                    <li><a href="#">Kids</a></li>
+                    <li><a href="#">Clothes</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <strong>Contact</strong>
+                <ul>
+                    <li><a href="#">Phone: +20 1064096362</a></li>
+                    <li><a href="#">Email: yasmeenhelmy2020@gmail.com</a></li>
+                </ul>
+            </div>
+    </footer>
+</body>
+</html>
